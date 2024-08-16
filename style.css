@@ -1,0 +1,19 @@
+.NavColor{
+    background-color: #9EB384;
+    color: #FAF1E4;
+}
+
+.Color{
+    color: #435334; 
+}
+
+.btn_Customization{
+    background-color: #FFC5C5;
+    color: #435334; 
+}
+
+.btn_Customization:hover{
+    background-color: #435334;
+    color: #FAF1E4;
+}
+

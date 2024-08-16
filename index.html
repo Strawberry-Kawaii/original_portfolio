@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <section id="NavBar">
+        <nav class="navbar NavColor" aria-label="First navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand NavColor" href="#NavBar">Home</a>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="navbar-collapse collapse" id="navbarsExample01">
+                <ul class="navbar-nav me-auto mb-2">
+                  <li class="nav-item">
+                    <a class="nav-link NavColor" href="#body">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link NavColor" href="#contact">Contact Me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <section id="head">
+      <div class="p-4 p-md-5 mb-4 rounded bg-body-secondary">
+        <div class="col-lg-6 px-0">
+          <h1 class="display-4 fw-bold Color">Hi, I'm Shekina!</h1>
+          <p class="lead my-3">I am an aspiring Information Architect and Web Developer, driven by a passion for continous self-improvement and thrives for excellence.</p>
+          <p class="lead mb-0 Color fw-bold">Have a Look at my projects</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="body">
+      <!--First Project-->
+      <div class="container Market">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/Korean Screenshot.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="900" height="900" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="fw-bold mb-3 Color">Simple Travel Guide Website</h1>
+            <p class="lead">My latest website features a responsive layout, expertly crafted using HTML, CSS, and JavaScript</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="https://strawberry-kawaii.github.io/portfolio/#bottom"><button type="button" class="btn btn-lg px-4 me-md-2 btn_Customization"> View Website</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Second Project-->
+      <div class="container Market">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./images/First.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="900" height="900" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="fw-bold mb-3 Color">My First Responsive Website</h1>
+            <p class="lead">One of my earliest websites that was designed with a responsive layout which seamlessly adapts to any device size</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="https://strawberry-kawaii.github.io/simple_project/"><button type="button" class="btn btn-lg px-4 me-md-2 btn_Customization"> View Website</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-5 Color">Contact Me</h1>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="792fd724-d715-4cb5-a951-d6de2ed24748">
+              <!--Name-->
+              <div class="form-floating mb-3">
+                <input type="text" name="name" class="form-control" id="floatingInput" placeholder="name">
+                <label for="floatingInput">Name</label>
+              </div>
+              <!--Email-->
+              <div class="form-floating mb-3">
+                <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Send a Message </label>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button class="btn w-100 btn_Customization" type="submit">Submit</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">© 2024 Sheina Mabeka</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#NavBar" class="nav-link px-2 text-body-secondary">Back to top</a></li>
+        </ul>
+      </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
