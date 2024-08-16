@@ -17,3 +17,11 @@
     color: #FAF1E4;
 }
 
+.CV{
+    background-color: #9EB384;
+}
+
+.CV:hover{
+    color: black;
+    background-color: #FFC5C5;
+}
